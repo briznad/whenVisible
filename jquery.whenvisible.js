@@ -51,10 +51,10 @@
 	        	if ( typeof( callback ) === 'undefined' || callback === null) return;
 	        	// if optional interval is not defined set interval at 50
 	        	// aka check for element visibility every 50ms
-	        	if ( typeof( interval ) === 'undefined' || interval === null) interval = 50;
+	        	if ( typeof( interval ) === 'undefined' || interval === null) interval = 100;
 	        	// if optional timeout is not defined set timeout at 6000
 	        	// aka run element visibility check 6000 times x 50ms = timeout after 5 minutes
-	        	if ( typeof( timeout ) === 'undefined' || timeout === null) timeout = 6000;
+	        	if ( typeof( timeout ) === 'undefined' || timeout === null) timeout = 3000;
 
 	            base.callback = callback;
 	            base.interval = interval;
