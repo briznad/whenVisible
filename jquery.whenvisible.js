@@ -81,5 +81,5 @@
     };
 
 // to use with jQuery/Zepto uncomment the desired library
-//})( jQuery, window, document );
-})( Zepto, window, document );
+})( jQuery, window, document );
+//})( Zepto, window, document );
