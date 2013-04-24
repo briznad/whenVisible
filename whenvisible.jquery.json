@@ -1,6 +1,6 @@
 {
     "name": "whenvisible",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "title": "whenVisible",
     "author": {
         "name": "Brad Mallow",
@@ -26,5 +26,6 @@
     ],
     "homepage": "https://github.com/briznad/whenVisible",
     "docs": "https://github.com/briznad/whenVisible",
+    "demo": "http://briznad.github.io/whenVisible/",
     "bugs": "https://github.com/briznad/whenVisible/issues"
 }
