@@ -14,7 +14,7 @@
 - **timeout**
   - Type: [**Number**](http://api.jquery.com/Types#Number)
   - Default: `3000`
-  - A positive integer representing the total number of checks to run before timing out. The default settings of 100ms checks occurring at most 3000 times means the timeout will occur at 5 minutes.
+  - A positive integer representing the total number of checks to run before timing out. The default setting of 100ms checks occurring at most 3000 times means the timeout will occur at 5 minutes.
 
 ### Example: check out the [demo page](http://briznad.github.io/whenVisible/)!
 
