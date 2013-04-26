@@ -49,11 +49,11 @@
 	        init: function() {
 	        	// callback is required; if no callback is specified just give up
 	        	if ( typeof( callback ) === 'undefined' || callback === null) return;
-	        	// if optional interval is not defined set interval at 50
-	        	// aka check for element visibility every 50ms
+	        	// if optional interval is not defined set interval at 100
+	        	// aka check for element visibility every 100ms
 	        	if ( typeof( interval ) === 'undefined' || interval === null) interval = 100;
-	        	// if optional timeout is not defined set timeout at 6000
-	        	// aka run element visibility check 6000 times x 50ms = timeout after 5 minutes
+	        	// if optional timeout is not defined set timeout at 3000
+	        	// aka run element visibility check 3000 times x 100ms = timeout after 5 minutes
 	        	if ( typeof( timeout ) === 'undefined' || timeout === null) timeout = 3000;
 
 	            base.callback = callback;
